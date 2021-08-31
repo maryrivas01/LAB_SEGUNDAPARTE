@@ -7,6 +7,15 @@ namespace LAB_SEGUNDAPARTE
         static void Main(string[] args)
         {
 
+            String Nombre = Console.ReadLine();
+
+
+            
+
+
+
+
+
 
         }
     }

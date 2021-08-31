@@ -6,32 +6,52 @@ namespace LAB_SEGUNDAPARTE.Negocio
 {
     class ClsPersona
     {
+
         Persona pers = new Persona();
-        public String CalcularIMC()
+        public  String CalcularIMC()
         {
+            
+
             double pro = pers.Peso1 / Math.Pow(pers.Altura1, 2);
 
             if (pro < 20)
             {
-                return "peso ideal";
+                return "El peso es ideal";
             }
+
             if (pro > 25)
             {
-                return "tiene sobre peso";
-            }
-            return "";
-        }
+                return "Tiene sobre peso";
 
-        public String MayorDeEdad()
-        {
-            if (pers.Edad1 >= 18)
+            }
+
+            return!¿ "";
             {
-                return "El usuario es mayor de edad";
+
+
+                public static String MayorDeEdad()
+
+                    
+            }
+
+            if (pers.Edad > 18)
+
+            {
+                return "El usuario es mayor de edad"
+
+
 
             }
-            else
-                return "El usuario es menor de edad";
-        }
-    }
-        
+
+
+            else 
+                return "El usuario es menor de edad"
+       }
+
+
+
+
+
+
+}
 }
