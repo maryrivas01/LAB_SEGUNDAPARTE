@@ -7,43 +7,38 @@ namespace LAB_SEGUNDAPARTE
     class Persona
     {
 
+        private String nombre;
+        private int edad;
+        private string sexo;
+        private double peso;
+        private double altura;
 
+        public string Nombre { get => nombre; set => nombre = value; }
+        public int Edad { get => edad; set => edad = value; }
+        public string Sexo { get => sexo; set => sexo = value; }
+        public double Peso { get => peso; set => peso = value; }
+        public double Altura { get => altura; set => altura = value; }
 
-        private String Nombre;
-        private int Edad;
-        private string Sexo;
-        private int Peso;
-        private int Altura;
-
-
-        public string Nombre1 { get => Nombre; set => Nombre = value; }
-        public int Edad1 { get => Edad; set => Edad = value; }
-        public string Sexo1 { get => Sexo; set => Sexo = value; }
-        public int Peso1 { get => Peso; set => Peso = value; }
-        public int Altura1 { get => Altura; set => Altura = value; }
-
-
-
-        public Persona(int peso, int altura)
+        public Persona(double peso, double altura)
         {
-            Peso1 = peso;
-            Altura1 = altura;
+            Peso = peso;
+            Altura = altura;
         }
 
         public Persona(string nombre, int edad, string sexo)
         {
-            Nombre1 = nombre;
-            Edad1 = edad;
-            Sexo1 = sexo;
+            Nombre = nombre;
+            Edad = edad;
+            Sexo = sexo;
         }
 
-        public Persona(string nombre, int edad, string sexo, int peso, int altura)
+        public Persona(string nombre, int edad, string sexo, double peso, double altura)
         {
-            Nombre1 = nombre;
-            Edad1 = edad;
-            Sexo1 = sexo;
-            Peso1 = peso;
-            Altura1 = altura;
+            Nombre = nombre;
+            Edad = edad;
+            Sexo = sexo;
+            Peso = peso;
+            Altura = altura;
         }
 
         public Persona()
