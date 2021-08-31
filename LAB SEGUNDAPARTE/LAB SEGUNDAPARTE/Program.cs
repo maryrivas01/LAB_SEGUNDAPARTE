@@ -6,7 +6,8 @@ namespace LAB_SEGUNDAPARTE
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+
         }
     }
 }

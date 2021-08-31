@@ -46,6 +46,10 @@ namespace LAB_SEGUNDAPARTE
             Altura1 = altura;
         }
 
+        public Persona()
+        {
+        }
+
         public override string ToString()
         {
             return Nombre + " " + Edad + "  " + Peso + "  " + Altura;

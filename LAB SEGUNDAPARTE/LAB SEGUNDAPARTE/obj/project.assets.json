@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Maria\\.nuget\\packages\\": {}
+    "C:\\Users\\BESSY\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maria\\Desktop\\POO\\LAB_SEGUNDAPARTE\\LAB SEGUNDAPARTE\\LAB SEGUNDAPARTE\\LAB SEGUNDAPARTE.csproj",
+      "projectUniqueName": "C:\\Users\\BESSY\\Documents\\GitHub\\LAB_SEGUNDAPARTE\\LAB SEGUNDAPARTE\\LAB SEGUNDAPARTE\\LAB SEGUNDAPARTE.csproj",
       "projectName": "LAB SEGUNDAPARTE",
-      "projectPath": "C:\\Users\\Maria\\Desktop\\POO\\LAB_SEGUNDAPARTE\\LAB SEGUNDAPARTE\\LAB SEGUNDAPARTE\\LAB SEGUNDAPARTE.csproj",
-      "packagesPath": "C:\\Users\\Maria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maria\\Desktop\\POO\\LAB_SEGUNDAPARTE\\LAB SEGUNDAPARTE\\LAB SEGUNDAPARTE\\obj\\",
+      "projectPath": "C:\\Users\\BESSY\\Documents\\GitHub\\LAB_SEGUNDAPARTE\\LAB SEGUNDAPARTE\\LAB SEGUNDAPARTE\\LAB SEGUNDAPARTE.csproj",
+      "packagesPath": "C:\\Users\\BESSY\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BESSY\\Documents\\GitHub\\LAB_SEGUNDAPARTE\\LAB SEGUNDAPARTE\\LAB SEGUNDAPARTE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BESSY\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
