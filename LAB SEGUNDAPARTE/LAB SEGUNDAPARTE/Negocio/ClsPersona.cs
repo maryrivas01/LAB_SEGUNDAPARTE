@@ -5,53 +5,33 @@ using System.Text;
 namespace LAB_SEGUNDAPARTE.Negocio
 {
     class ClsPersona
+
     {
 
-        Persona pers = new Persona();
-        public  String CalcularIMC()
+        public String CalcularIMC(Persona persona)
         {
-            
+            double pro = (persona.Peso / Math.Pow(persona.Altura, 2));
 
-            double pro = pers.Peso1 / Math.Pow(pers.Altura1, 2);
-
-            if (pro < 20)
+            if (pro <= 20)
             {
-                return "El peso es ideal";
+                return "Peso ideal";
             }
-
-            if (pro > 25)
+            else
             {
                 return "Tiene sobre peso";
-
             }
-
-            return!¿ "";
+        }
+        public string esMayorDeEdad(Persona persona)
+        {
+            if (persona.Edad >= 18)
             {
-
-
-                public static String MayorDeEdad()
-
-                    
+                return "Es mayor de Edad";
             }
-
-            if (pers.Edad > 18)
-
+            else
             {
-                return "El usuario es mayor de edad"
-
-
-
+                return "Es menor de edad";
             }
+        }
 
-
-            else 
-                return "El usuario es menor de edad"
-       }
-
-
-
-
-
-
-}
+    } 
 }
